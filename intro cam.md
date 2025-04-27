@@ -19,12 +19,12 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 To start, open your levels *Map.arc* file, then in the *camera* folder, extract the *StartScenario\#.canm* file. (\# being the number for the scenario that uses this camera). 
 
-![WiiExplorer_pMQIMVOD7B](https://github.com/user-attachments/assets/3a0d6e39-9d6c-4720-9cab-4b5899406cd8)
+![WiiExplorer_pMQIMVOD7B](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437884716-3a0d6e39-9d6c-4720-9cab-4b5899406cd8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075607Z&X-Amz-Expires=300&X-Amz-Signature=a3e92eec9e3eb2dab61567d8402c9faaf71b187fec7339cf5c6f2ac0fe6ac1e1&X-Amz-SignedHeaders=host)
 
 <sup>Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)<sup>
 
 Then, open Launch Cam Plus, click File \> Open, then find the CANM you extracted. This will open the CANM editor.
-![LaunchCamPlus_T5tTBQXTnh](https://github.com/user-attachments/assets/69d7d930-8b8e-4a0e-ac31-2bd759685a8f)
+![LaunchCamPlus_T5tTBQXTnh](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437885200-69d7d930-8b8e-4a0e-ac31-2bd759685a8f.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075559Z&X-Amz-Expires=300&X-Amz-Signature=afd27f110cb7e6c85f159db46a0d43cd4f486a5eb7ca5aea7032ed423c16a12d&X-Amz-SignedHeaders=host)
 
 
 
@@ -35,34 +35,29 @@ Opening the CANM file will present you with, well, quite a lot. But don’t worr
 ### Keyframe Types
 
 
-![LaunchCamPlus_YB0U1sJXPL](https://github.com/user-attachments/assets/3c617638-54db-4bbd-a6ec-bfc5fff3ac0b)
+![LaunchCamPlus_YB0U1sJXPL](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437891640-3c617638-54db-4bbd-a6ec-bfc5fff3ac0b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075348Z&X-Amz-Expires=300&X-Amz-Signature=93258948f18b59ef6c951a152dd81a3c9076302d594ac1332defbc8d50ed39f2&X-Amz-SignedHeaders=host)
 *Position XYZ* is where the camera is ***Located*** in the galaxy
 
-![LaunchCamPlus_w90oo5wdl3](https://github.com/user-attachments/assets/6df330e0-5d90-4c27-a5a6-e232d30b26c1)
+![LaunchCamPlus_w90oo5wdl3](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437891797-6df330e0-5d90-4c27-a5a6-e232d30b26c1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075454Z&X-Amz-Expires=300&X-Amz-Signature=52ab54925365e4251bf3c2a09085cd51dc448ccc7b87137f1793a79d8f6f9880&X-Amz-SignedHeaders=host)
 *Target XYZ* is where the camera is ***Looking*** in the galaxy
 
-![LaunchCamPlus_HKJ1ZSmOLg](https://github.com/user-attachments/assets/9f37b426-9c9c-4b6f-bf63-4383c50dc1aa)
+![LaunchCamPlus_HKJ1ZSmOLg](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437892117-9f37b426-9c9c-4b6f-bf63-4383c50dc1aa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075347Z&X-Amz-Expires=300&X-Amz-Signature=04a9fa65034620f4af4970504448971b69220a02b2db2ee0b02f056ccd4f961e&X-Amz-SignedHeaders=host)
 *Roll* is the ***Rotation*** of the camera. From \-180 to 180\. Either \-180 or 180 is exactly upside down. 0 is straight up.   
 
-![LaunchCamPlus_eDQZOqcPfx](https://github.com/user-attachments/assets/8c2ee47e-2367-42d2-afdd-cea24818908c)
+![LaunchCamPlus_eDQZOqcPfx](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437892226-8c2ee47e-2367-42d2-afdd-cea24818908c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075346Z&X-Amz-Expires=300&X-Amz-Signature=e897c42487a18ba2640538ceb3045e6f447026c84aa9ba538eb867363961b350&X-Amz-SignedHeaders=host)
 And finally, *Field of View* *(or FOV)* is how ***zoomed in*** the camera is.
 
 ### Coordinates
 
 Coordinates in a galaxy can be easily found by placing a reference object in your level. Here, I’ll be using a coin.
 
-## Examples:
+## Examples
 
 #### *Roll:* 0 to NEGATIVE 180
-
-![0 to NEGATIVE_180](https://github.com/Syreyup/markdownviewer/blob/main/images/rolling%20from%200%20to%20-180.gif)
-
+![alt text](<images/rolling from 0 to positive 180.gif>)
 #### *Roll:* 0 to POSITIVE 180
-
-![0_to_POSITIVE_180](https://github.com/Syreyup/markdownviewer/blob/main/images/rolling%20from%200%20to%20positive%20180.gif)
-
+![alt text](<images/rolling from 0 to -180.gif>)
 #### *Field of View:* 0 to 90
-
-![FOV_0_to_90](https://github.com/Syreyup/markdownviewer/blob/main/images/r%20FOV%200%20to%2090.gif?)
+![alt text](<images/r FOV 0 to 90.gif>)
 
 *Written by Syreyup*

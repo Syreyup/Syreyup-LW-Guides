@@ -4,8 +4,8 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 ### Prerequisites
 
-* You'll need WiiExplorer and Launch Cam Plus, by Super Hackio, and your levels *Map.arc* file.
-* You *should* have Whitehole Neo to see coordinates for camera position (using a reference object).
+* You'll need [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) and [Launch Cam Plus](https://github.com/SuperHackio/LaunchCamPlus), by Super Hackio, and your levels *Map.arc* file.
+* You *should* have [Whitehole Neo](https://github.com/SMGCommunity/Whitehole-Neo) to see coordinates for camera position (using a reference object).
 
 ### General tips and non-essential guidelines
 *(How to make your camera make sense for your level)*
@@ -51,7 +51,7 @@ And finally, *Field of View* *(or FOV)* is how ***zoomed in*** the camera is.
 
 Coordinates in a galaxy can be easily found by placing a reference object in your level. Here, I’ll be using a coin.
 
-Examples:
+## Examples:
 
 #### *Roll:* 0 to NEGATIVE 180
 
@@ -64,3 +64,5 @@ Examples:
 #### *Field of View:* 0 to 90
 
 ![FOV_0_to_90](https://github.com/Syreyup/markdownviewer/blob/main/images/r%20FOV%200%20to%2090.gif?)
+
+*Written by Syreyup*

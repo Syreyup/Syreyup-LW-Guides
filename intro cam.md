@@ -57,6 +57,12 @@ Say you want to make a simple intro camera. The camera moves from point A to B (
 
 I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 time keyframes. 
 
+### Make sure your reference objects are in the <u>___MAIN GALAXY___</u>, not the zone!
+![alt text](images/java_0pqVM1ZEZH.png)
+`HoneyBeeKingdomGalaxy`✅
+![alt text](images/java_zaM4kiYbIQ.png)
+`ForestHomeZone`❌
+
 ## Examples
 
 ### *Roll:* 0 to -180

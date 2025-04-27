@@ -53,12 +53,14 @@ Coordinates in a galaxy can be easily found by placing a reference object in you
 
 Examples:
 
-*Rolling* from 0 to NEGATIVE 180
+#### *Roll:* 0 to NEGATIVE 180
 
+![0 to NEGATIVE_180](https://github.com/Syreyup/markdownviewer/blob/main/images/rolling%20from%200%20to%20-180.gif)
 
-*Rolling* from 0 to POSITIVE 180
+#### *Roll:* 0 to POSITIVE 180
 
-![0_to_POS180](https://media.discordapp.net/attachments/998162870409887764/1365917174354673745/rolling_from_0_to_positive_180.gif?ex=680f0cff&is=680dbb7f&hm=adf24b109b127ea8905930ed6b7baf3ee8044156e875a55dbe0f915fd5d72470&=)
+![0_to_POSITIVE_180](https://github.com/Syreyup/markdownviewer/blob/main/images/rolling%20from%200%20to%20positive%20180.gif)
 
-*Field of View:* 0 to 90
+#### *Field of View:* 0 to 90
 
+![FOV_0_to_90](https://github.com/Syreyup/markdownviewer/blob/main/images/r%20FOV%200%20to%2090.gif?)

@@ -20,7 +20,7 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 To start, open your levels *Map.arc* file, then in the *camera* folder, extract the *StartScenario\#.canm* file. (\# being the number for the scenario that uses this camera). 
 
-<p align="center" width="100%">
+<p align="left" width="100%">
  <img src="images/WiiExplorer_pMQIMVOD7B.png">
  </p>
 
@@ -126,7 +126,7 @@ Then, do the same with Coin B in the final frames of `Position`.
 
 They should look like this, see the coordinates above, and how they correlate to the `Value` section in `Keyframe Data` in this GIF.
 
-<p align="center" width="100%">
+<p align="left" width="100%">
  <img src="images/LaunchCamPlus_lon5veDrw5.gif">
  </p>
 
@@ -140,13 +140,13 @@ Here are the position coordinates for Coin C
 
 Now here are the same coordinates in the `Target` section of LCP
 
-<p align="center" width="100%">
+<p align="left" width="100%">
  <img src="images/LaunchCamPlus_cm4Pb7w4PF.gif">
  </p>
 
 And we're done! Here's how the final camera looks!
 
-<p align="center" width="100%">
+<p align="left" width="100%">
  <img src="images/final camera!!.gif">
  </p>
 

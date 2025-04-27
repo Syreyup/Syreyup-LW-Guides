@@ -53,7 +53,7 @@ Coordinates in a galaxy can be easily found by placing a reference object in you
 
 Say you want to make a simple intro camera. The camera moves from point A to B (red) while looking at point C (green) which does not move.
 
-![alt text](images/example.png)
+![Point A B and C Example](images/example.png)
 
 I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 time keyframes. 
 

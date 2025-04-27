@@ -20,16 +20,16 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 To start, open your levels *Map.arc* file, then in the *camera* folder, extract the *StartScenario\#.canm* file. (\# being the number for the scenario that uses this camera). 
 
-<p align="left" width="100%">
- <img src="images/WiiExplorer_pMQIMVOD7B.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-GalaxyMapArcWiiExplorer.png">
  </p>
 
 ##### Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)
 
 Then, open Launch Cam Plus, click File \> Open, then find the CANM you extracted. This will open the CANM editor.
 
-<p align="left" width="100%">
- <img src="images/LaunchCamPlus_T5tTBQXTnh.gif">
+<p align="center" width="100%">
+ <img src="images/intro_camera-OpenScenarioStarter.gif">
  </p>
 
 
@@ -40,29 +40,29 @@ Opening the CANM file will present you with, well, quite a lot. But don’t worr
 
 ### Keyframe Types
 
-<p align="left" width="100%">
- <img src="images/PosLCP.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-PosLCP.png">
  </p>
 
-*Position XYZ* is where the camera is ***located*** in the galaxy
+<p style="text-align: center;"><i>Position XYZ</i> is where the camera is <b><i>located</i></b> in the galaxy</p>
 
-<p align="left" width="100%">
- <img src="images/TargetLCP.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-TargetLCP.png">
  </p>
 
-*Target XYZ* is where the camera is ***looking*** in the galaxy
+<p style="text-align: center;"><i>Target XYZ</i> is where the camera is <b><i>looking</i></b> in the galaxy</p>
 
-<p align="left" width="100%">
- <img src="images/RollLCP.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-RollLCP.png">
  </p>
 
-*Roll* is the ***Rotation*** of the camera. From \-180 to 180\. Either \-180 or 180 is exactly upside down. 0 is straight up.   
+<p style="text-align: center;"><i>Roll</i> is the <b><i>Rotation</i></b> of the camera. From -180 to 180. Either -180 or 180 is upside down. 0 is straight up.</p>
 
-<p align="left" width="100%">
- <img src="images/LCP-FOV.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-LCP-FOV.png">
  </p>
 
-And finally, *Field of View* *(or FOV)* is how ***zoomed in*** the camera is.
+<p style="text-align: center;">And finally, <i>Field of View (or FOV)</i> is how <b><i>zoomed in</i></b> the camera is.</p>
 
 ### Coordinates
 
@@ -71,7 +71,7 @@ Coordinates in a galaxy can be easily found by placing a reference object in you
 Say you want to make a simple intro camera. The camera moves from point A to B (red) while looking at point C (green) which does not move.
 
 <p align="center" width="100%">
- <img src="images/example.png">
+ <img src="images/intro_camera-ExampleDiagram.png">
  </p>
 
 I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 keyframes for each `Position` axis and one keyframe for each `Target` axis.
@@ -79,14 +79,14 @@ I have already placed coins in these positions, as you can see, and will use the
 ---
 
 ### Make sure your reference objects are in the <u>___MAIN GALAXY___</u>, not the zone!
-<p width="100%">
- <img src="images/java_0pqVM1ZEZH.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-Correct-In-Galaxy.png">
  </p>
 
 `HoneyBeeKingdomGalaxy`✅
 
-<p width="100%">
- <img src="images/java_zaM4kiYbIQ.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-Incorrect-In-Zone.png">
  </p>
 
 `ForestHomeZone`❌
@@ -101,54 +101,58 @@ Starting off, for a simple Point A to B camera, you'll want to make 2 camera key
 
 If you're opening a CANM file from the base game, you'll see a lot of keyframes. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
 
-<p align="left" width="100%">
- <img src="images/LaunchCamPlus_0qqYjjrO6T.png"> Before
+<p align="center" width="100%">
+ <img src="images/intro_camera-Before.png">
  </p>
- 
- <p align="left" width="100%">
- <img src="images/LaunchCamPlus_NL6GmtUWeI.png"> After
+<p style="text-align: center;">Before</p>
+
+---
+
+ <p align="center" width="100%">
+ <img src="images/intro_camera-After.png">
  </p> 
+<p style="text-align: center;">After</p>
 
 ##### (Tip, you can press CTRL + A to create a new timing point, and CTRL + DEL to delete the currently highlighted timing point.)
 
 Next, look at the position of Coin A.
 
-<p align="left" width="100%">
- <img src="images/java_KM3890ay11.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-CoinAPos.png">
  </p>
 
 Take note of these coordinates. Then, in LaunchCamPlus, take the X, Y, and Z positions from Coin A, and put them in the corresponding `Position` sections first frames.
 
 Then, do the same with Coin B in the final frames of `Position`.
 
-<p align="left" width="100%">
- <img src="images/dK8wNZ9LLs.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-CoinBPos.png">
  </p>
 
 They should look like this, see the coordinates above, and how they correlate to the `Value` section in `Keyframe Data` in this GIF.
 
-<p align="left" width="100%">
- <img src="images/LaunchCamPlus_lon5veDrw5.gif">
+<p align="center" width="100%">
+ <img src="images/intro_camera-PositionXYZ-LCP.gif">
  </p>
 
 Now, the `Target` position. This one is simpler, as in this instance, it doesn't move.
 
 Here are the position coordinates for Coin C
 
-<p align="left" width="100%">
- <img src="images/java_UXNHHY6Zdi.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-CoinCPos.png">
  </p>
 
 Now here are the same coordinates in the `Target` section of LCP
 
-<p align="left" width="100%">
- <img src="images/LaunchCamPlus_cm4Pb7w4PF.gif">
+<p align="center" width="100%">
+ <img src="images/intro_camera-TargetXYZ-LCP.gif">
  </p>
 
 And we're done! Here's how the final camera looks!
 
-<p align="left" width="100%">
- <img src="images/final camera!!.gif">
+<p align="center" width="100%">
+ <img src="images/intro_camera-final-camera!!.gif">
  </p>
 
 Pretty simple, but that's all that this guide is for! This guide is just covering how to use this part of the program. It is up to you to mess around with the program and make something suitable for your level. 
@@ -157,34 +161,34 @@ Pretty simple, but that's all that this guide is for! This guide is just coverin
 
 ### *Roll:* 0 to -180
 <p align="center" width="100%">
- <img src="images/rolling from 0 to positive 180.gif">
+ <img src="images/intro_camera-rolling-from-0-to-positive-180.gif">
  </p>
-<p align="left" width="100%">
- <img src="images/roll-negative-example.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-roll-negative-example.png">
  </p>
 
 ### *Roll:* 0 to +180
 <p align="center" width="100%">
- <img src="images/rolling from 0 to -180.gif">
+ <img src="images/intro_camera-rolling-from-0-to--180.gif">
  </p>
-<p align="left" width="100%">
- <img src="images/roll-positive-example.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-roll-positive-example.png">
  </p>
 
 ### *Field of View:* 0 to 90
 <p align="center" width="100%">
- <img src="images/r FOV 0 to 90.gif">
+ <img src="images/intro_camera-FOV 0 to 90.gif">
  </p>
- <p align="left" width="100%">
- <img src="images/fovexample.png">
+ <p align="center" width="100%">
+ <img src="images/intro_camera-fovexample.png">
  </p>
 
 ## Jump cuts
 
 To make a jump cut, have where you want the camera to be on one frame, then the NEXT frame, set where you want the camera to cut to. (A purple line in LCP indicates a jump cut)
 
-<p align="left" width="100%">
- <img src="images/jumpcut.png">
+<p align="center" width="100%">
+ <img src="images/intro_camera-jumpcut.png">
  </p>
 
 ## Final note

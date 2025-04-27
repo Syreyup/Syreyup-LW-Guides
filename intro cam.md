@@ -19,12 +19,16 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 To start, open your levels *Map.arc* file, then in the *camera* folder, extract the *StartScenario\#.canm* file. (\# being the number for the scenario that uses this camera). 
 
-![WiiExplorer_pMQIMVOD7B](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437884716-3a0d6e39-9d6c-4720-9cab-4b5899406cd8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075607Z&X-Amz-Expires=300&X-Amz-Signature=a3e92eec9e3eb2dab61567d8402c9faaf71b187fec7339cf5c6f2ac0fe6ac1e1&X-Amz-SignedHeaders=host)
+<p align="center" width="100%">
+ <img src="images/WiiExplorer_pMQIMVOD7B.png">
+ </p>
 
-<sup>Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)<sup>
+##### Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)
 
 Then, open Launch Cam Plus, click File \> Open, then find the CANM you extracted. This will open the CANM editor.
-![LaunchCamPlus_T5tTBQXTnh](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437885200-69d7d930-8b8e-4a0e-ac31-2bd759685a8f.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075559Z&X-Amz-Expires=300&X-Amz-Signature=afd27f110cb7e6c85f159db46a0d43cd4f486a5eb7ca5aea7032ed423c16a12d&X-Amz-SignedHeaders=host)
+<p align="left" width="100%">
+ <img src="images/LaunchCamPlus_T5tTBQXTnh.gif">
+ </p>
 
 
 
@@ -34,17 +38,28 @@ Opening the CANM file will present you with, well, quite a lot. But don’t worr
 
 ### Keyframe Types
 
+<p align="left" width="100%">
+ <img src="images/PosLCP.png">
+ </p>
 
-![PositionLCP](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437891640-3c617638-54db-4bbd-a6ec-bfc5fff3ac0b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075348Z&X-Amz-Expires=300&X-Amz-Signature=93258948f18b59ef6c951a152dd81a3c9076302d594ac1332defbc8d50ed39f2&X-Amz-SignedHeaders=host)
 *Position XYZ* is where the camera is ***located*** in the galaxy
 
-![TargetLCP](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437891797-6df330e0-5d90-4c27-a5a6-e232d30b26c1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075454Z&X-Amz-Expires=300&X-Amz-Signature=52ab54925365e4251bf3c2a09085cd51dc448ccc7b87137f1793a79d8f6f9880&X-Amz-SignedHeaders=host)
+<p align="left" width="100%">
+ <img src="images/TargetLCP.png">
+ </p>
+
 *Target XYZ* is where the camera is ***looking*** in the galaxy
 
-![RotationLCP](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437892117-9f37b426-9c9c-4b6f-bf63-4383c50dc1aa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075347Z&X-Amz-Expires=300&X-Amz-Signature=04a9fa65034620f4af4970504448971b69220a02b2db2ee0b02f056ccd4f961e&X-Amz-SignedHeaders=host)
+<p align="left" width="100%">
+ <img src="images/RollLCP.png">
+ </p>
+
 *Roll* is the ***Rotation*** of the camera. From \-180 to 180\. Either \-180 or 180 is exactly upside down. 0 is straight up.   
 
-![FieldOfViewLCP](https://github-production-user-asset-6210df.s3.amazonaws.com/89299730/437892226-8c2ee47e-2367-42d2-afdd-cea24818908c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250427%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250427T075346Z&X-Amz-Expires=300&X-Amz-Signature=e897c42487a18ba2640538ceb3045e6f447026c84aa9ba538eb867363961b350&X-Amz-SignedHeaders=host)
+<p align="left" width="100%">
+ <img src="images/LCP-FOV.png">
+ </p>
+
 And finally, *Field of View* *(or FOV)* is how ***zoomed in*** the camera is.
 
 ### Coordinates
@@ -53,17 +68,25 @@ Coordinates in a galaxy can be easily found by placing a reference object in you
 
 Say you want to make a simple intro camera. The camera moves from point A to B (red) while looking at point C (green) which does not move.
 
-![PointABC-Example](images/example.png)
+<p align="center" width="100%">
+ <img src="images/example.png">
+ </p>
 
 I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 time keyframes. 
 
 ---
 
 ### Make sure your reference objects are in the <u>___MAIN GALAXY___</u>, not the zone!
-![alt text](images/java_0pqVM1ZEZH.png)
+<p width="100%">
+ <img src="images/java_0pqVM1ZEZH.png">
+ </p>
+
 `HoneyBeeKingdomGalaxy`✅
 
-![alt text](images/java_zaM4kiYbIQ.png)
+<p width="100%">
+ <img src="images/java_zaM4kiYbIQ.png">
+ </p>
+
 `ForestHomeZone`❌
 
 ---
@@ -76,26 +99,59 @@ Starting off, for a simple Point A to B camera, you'll want to make 2 camera tim
 
 If you're opening a CANM file from the base game, you'll see a lot of timing points. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
 
-![alt text](images/LaunchCamPlus_0qqYjjrO6T.png) Before
-![alt text](images/LaunchCamPlus_NL6GmtUWeI.png) After
+<p align="left" width="100%">
+ <img src="images/LaunchCamPlus_0qqYjjrO6T.png"> Before
+ </p>
+ 
+ <p align="left" width="100%">
+ <img src="images/LaunchCamPlus_NL6GmtUWeI.png"> After
+ </p> 
 
-<sub>(Tip, you can press CTRL + A to create a new timing point, and CTRL + DEL to delete the currently highlighted timing point.)</sub>
+##### (Tip, you can press CTRL + A to create a new timing point, and CTRL + DEL to delete the currently highlighted timing point.)
 
 Next, look at the position of coin A.
 
-![alt text](images/java_UXNHHY6Zdi.png)
+<p align="left" width="100%">
+ <img src="images/java_KM3890ay11.png">
+ </p>
 
 Take note of these coordinates. Then, in LaunchCamPlus, take the X, Y, and Z positions from coin A, and put them in the corresponding `Position` sections first frames.
 
+Then, do the same with coin B in the final frames of `Position`.
 
+<p align="left" width="100%">
+ <img src="images/dK8wNZ9LLs.png">
+ </p>
+
+They should look like this, see the coordinates above, and how they correlate to the `Value` section in `Keyframe Data` in this GIF.
+
+<p align="center" width="100%">
+ <img src="images/LaunchCamPlus_lon5veDrw5.gif">
+ </p>
+
+Now, the `Target` position. This one is simpler, as in this instance, it doesn't move.
 
 ## Examples
 
 ### *Roll:* 0 to -180
-![alt text](<images/rolling from 0 to positive 180.gif>)
+<p align="center" width="100%">
+ <img src="images/rolling from 0 to positive 180.gif">
+ </p>
+
 ### *Roll:* 0 to +180
-![alt text](<images/rolling from 0 to -180.gif>)
+<p align="center" width="100%">
+ <img src="images/rolling from 0 to -180.gif">
+ </p>
+
 ### *Field of View:* 0 to 90
-![alt text](<images/r FOV 0 to 90.gif>)
+<p align="center" width="100%">
+ <img src="images/r FOV 0 to 90.gif">
+ </p>
+
+## Final note
+
+This guide is just covering how to use the program. It is up to you to mess around with the program and make something suitable for your level. The best way to learn is to experiment with it! I hope this guide helped you figure out how the CANM editor works, and that it helps you make some awesome looking intro cameras! 
+
+---
 
 *Written by Syreyup*

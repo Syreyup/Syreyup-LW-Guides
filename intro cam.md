@@ -2,7 +2,7 @@
 
 Intro cameras are what you see as soon as the level is loaded. The little preview that shows you what the level is about\! First impressions are key and if your intro camera is the default flip swap pan forward camera that clips into a platform, you won't make a good impression. So that's where people usually do one of two things\! Either they delete the camera so it just starts instantly, or, what we're covering here, you make a custom one\! So let's get to that\!
 
-### Prerequisites
+## Prerequisites
 
 * You'll need [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) and [Launch Cam Plus](https://github.com/SuperHackio/LaunchCamPlus), by Super Hackio, and your levels *Map.arc* file.
 * You *should* have [Whitehole Neo](https://github.com/SMGCommunity/Whitehole-Neo) to see coordinates for camera position (using a reference object).
@@ -51,6 +51,11 @@ And finally, *Field of View* *(or FOV)* is how ***zoomed in*** the camera is.
 
 Coordinates in a galaxy can be easily found by placing a reference object in your level. Here, I’ll be using a coin.
 
+Say you want to make a simple intro camera. The camera moves from point A to B (red) while looking at point C (green) which does not move.
+
+![alt text](images/example.png)
+
+I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) and 
 ## Examples
 
 #### *Roll:* 0 to NEGATIVE 180

@@ -74,7 +74,7 @@ Say you want to make a simple intro camera. The camera moves from point A to B (
  <img src="images/example.png">
  </p>
 
-I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 time keyframes. 
+I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 keyframes for each `Position` axis and one keyframe for each `Target` axis.
 
 ---
 

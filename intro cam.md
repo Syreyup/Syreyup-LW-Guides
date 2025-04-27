@@ -27,6 +27,7 @@ To start, open your levels *Map.arc* file, then in the *camera* folder, extract 
 ##### Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)
 
 Then, open Launch Cam Plus, click File \> Open, then find the CANM you extracted. This will open the CANM editor.
+
 <p align="left" width="100%">
  <img src="images/LaunchCamPlus_T5tTBQXTnh.gif">
  </p>

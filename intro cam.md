@@ -12,7 +12,7 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 ##### *(How to make your camera make sense for your level)*
 
 * Keep it simple \- you don't want 20 camera cuts in the 8 seconds (480 frames) the default camera length lasts, try and keep it to 2, *maybe* 3 cuts.  
-* Remember the focus \- if your level is linear and has a set end location, it's always nice to have an intro camera end on the location of the star. For open world levels, maybe show the location of one of the objectives. Like if it's a silver star level, maybe give a subtle hint as to where one of the silver stars are.
+* Remember the focus \- if your level is linear and has a set end location, it's always nice to have an intro camera end on the location of the star. For open world levels, maybe show the location of one of the objectives. For instance: if it is a silver star level, maybe give a subtle hint as to where one of the silver stars are.
 
 
 
@@ -92,11 +92,11 @@ I have already placed coins in these positions, as you can see, and will use the
 
 ---
 
-Now, this might be confusing, so I'll try and go through this as step-by-step as possible.
+Now, this might be confusing, so I'll try and make this as simple to understand as possible.
 
 First, let's set up the keyframes. It'll be easier if we set these up first, trust me.
 
-Starting off, for a simple Point A to B camera, you'll want to make 2 camera timing points for each Position and Target entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
+Starting off, for a simple Point A to B camera, you'll want to make 2 camera timing points for each `Position` and (if its only looking at one spot), one for the `Target` entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
 
 If you're opening a CANM file from the base game, you'll see a lot of timing points. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
 

@@ -7,8 +7,9 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 * You'll need [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) and [Launch Cam Plus](https://github.com/SuperHackio/LaunchCamPlus), by Super Hackio, and your levels *Map.arc* file.
 * You *should* have [Whitehole Neo](https://github.com/SMGCommunity/Whitehole-Neo) to see coordinates for camera position (using a reference object).
 
+
 ### General tips and non-essential guidelines
-*(How to make your camera make sense for your level)*
+##### *(How to make your camera make sense for your level)*
 
 * Keep it simple \- you don't want 20 camera cuts in the 8 seconds (480 frames) the default camera length lasts, try and keep it to 2, *maybe* 3 cuts.  
 * Remember the focus \- if your level is linear and has a set end location, it's always nice to have an intro camera end on the location of the star. For open world levels, maybe show the location of one of the objectives. Like if it's a silver star level, maybe give a subtle hint as to where one of the silver stars are.
@@ -109,15 +110,15 @@ If you're opening a CANM file from the base game, you'll see a lot of timing poi
 
 ##### (Tip, you can press CTRL + A to create a new timing point, and CTRL + DEL to delete the currently highlighted timing point.)
 
-Next, look at the position of coin A.
+Next, look at the position of Coin A.
 
 <p align="left" width="100%">
  <img src="images/java_KM3890ay11.png">
  </p>
 
-Take note of these coordinates. Then, in LaunchCamPlus, take the X, Y, and Z positions from coin A, and put them in the corresponding `Position` sections first frames.
+Take note of these coordinates. Then, in LaunchCamPlus, take the X, Y, and Z positions from Coin A, and put them in the corresponding `Position` sections first frames.
 
-Then, do the same with coin B in the final frames of `Position`.
+Then, do the same with Coin B in the final frames of `Position`.
 
 <p align="left" width="100%">
  <img src="images/dK8wNZ9LLs.png">
@@ -130,6 +131,26 @@ They should look like this, see the coordinates above, and how they correlate to
  </p>
 
 Now, the `Target` position. This one is simpler, as in this instance, it doesn't move.
+
+Here are the position coordinates for Coin C
+
+<p align="left" width="100%">
+ <img src="images/java_UXNHHY6Zdi.png">
+ </p>
+
+Now here are the same coordinates in the `Target` section of LCP
+
+<p align="center" width="100%">
+ <img src="images/LaunchCamPlus_cm4Pb7w4PF.gif">
+ </p>
+
+And we're done! Here's how the final camera looks!
+
+<p align="center" width="100%">
+ <img src="images/final camera!!.gif">
+ </p>
+
+Pretty simple, but that's all that this guide is for! This guide is just covering how to use this part of the program. It is up to you to mess around with the program and make something suitable for your level. 
 
 ## Examples
 
@@ -150,7 +171,7 @@ Now, the `Target` position. This one is simpler, as in this instance, it doesn't
 
 ## Final note
 
-This guide is just covering how to use the program. It is up to you to mess around with the program and make something suitable for your level. The best way to learn is to experiment with it! I hope this guide helped you figure out how the CANM editor works, and that it helps you make some awesome looking intro cameras! 
+The best way to learn how to do these more is just to experiment with them! I hope this guide helped you figure out how the CANM editor works, and that it helps you make some awesome looking intro cameras! 
 
 ---
 

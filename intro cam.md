@@ -97,9 +97,9 @@ Now, this might be confusing, so I'll try and make this as simple to understand 
 
 First, let's set up the keyframes. It'll be easier if we set these up first, trust me.
 
-Starting off, for a simple Point A to B camera, you'll want to make 2 camera timing points for each `Position` and (if its only looking at one spot), one for the `Target` entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
+Starting off, for a simple Point A to B camera, you'll want to make 2 camera keyframes for each `Position` and (if its only looking at one spot), one for the `Target` entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
 
-If you're opening a CANM file from the base game, you'll see a lot of timing points. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
+If you're opening a CANM file from the base game, you'll see a lot of keyframes. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
 
 <p align="left" width="100%">
  <img src="images/LaunchCamPlus_0qqYjjrO6T.png"> Before

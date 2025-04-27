@@ -159,20 +159,37 @@ Pretty simple, but that's all that this guide is for! This guide is just coverin
 <p align="center" width="100%">
  <img src="images/rolling from 0 to positive 180.gif">
  </p>
+<p align="left" width="100%">
+ <img src="images/roll-negative-example.png">
+ </p>
 
 ### *Roll:* 0 to +180
 <p align="center" width="100%">
  <img src="images/rolling from 0 to -180.gif">
+ </p>
+<p align="left" width="100%">
+ <img src="images/roll-positive-example.png">
  </p>
 
 ### *Field of View:* 0 to 90
 <p align="center" width="100%">
  <img src="images/r FOV 0 to 90.gif">
  </p>
+ <p align="left" width="100%">
+ <img src="images/fovexample.png">
+ </p>
+
+## Jump cuts
+
+To make a jump cut, have where you want the camera to be on one frame, then the NEXT frame, set where you want the camera to cut to. (A purple line in LCP indicates a jump cut)
+
+<p align="left" width="100%">
+ <img src="images/jumpcut.png">
+ </p>
 
 ## Final note
 
-The best way to learn how to do these more is just to experiment with them! I hope this guide helped you figure out how the CANM editor works, and that it helps you make some awesome looking intro cameras! 
+The best way to learn how to do these more is just to experiment with them! I hope this guide helped you figure out how the CANM editor works, and that it helps you make some awesome looking intro cameras!
 
 ---
 

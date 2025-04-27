@@ -55,14 +55,15 @@ Say you want to make a simple intro camera. The camera moves from point A to B (
 
 ![alt text](images/example.png)
 
-I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) and 
+I have already placed coins in these positions, as you can see, and will use the positions of those coins (visible in Whitehole) as keyframe points. This camera will only use 2 time keyframes. 
+
 ## Examples
 
-#### *Roll:* 0 to NEGATIVE 180
+### *Roll:* 0 to -180
 ![alt text](<images/rolling from 0 to positive 180.gif>)
-#### *Roll:* 0 to POSITIVE 180
+### *Roll:* 0 to +180
 ![alt text](<images/rolling from 0 to -180.gif>)
-#### *Field of View:* 0 to 90
+### *Field of View:* 0 to 90
 ![alt text](<images/r FOV 0 to 90.gif>)
 
 *Written by Syreyup*

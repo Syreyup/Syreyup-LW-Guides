@@ -9,7 +9,7 @@ Intro cameras are what you see as soon as the level is loaded. The little previe
 
 
 ### General tips and non-essential guidelines
-##### *(How to make your camera make sense for your level)*
+<sub>*(How to make your camera make sense for your level)*</sub>
 
 * Keep it simple \- you don't want 20 camera cuts in the 8 seconds (480 frames) the default camera length lasts, try and keep it to 2, *maybe* 3 cuts.  
 * Remember the focus \- if your level is linear and has a set end location, it's always nice to have an intro camera end on the location of the star. For open world levels, maybe show the location of one of the objectives. For instance: if it is a silver star level, maybe give a subtle hint as to where one of the silver stars are.
@@ -24,7 +24,7 @@ To start, open your levels *Map.arc* file, then in the *camera* folder, extract 
  <img src="images/intro_camera-GalaxyMapArcWiiExplorer.png">
  </p>
 
-##### Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)
+<sub>Honeyhive Galaxy’s Map.arc file. (Please note that SMG1 has its internal files in lowercase. Capitalization doesn’t matter in SMG2, but in SMG1, files MUST be all lowercase.)</sub>
 
 Then, open Launch Cam Plus, click File \> Open, then find the CANM you extracted. This will open the CANM editor.
 
@@ -113,7 +113,7 @@ If you're opening a CANM file from the base game, you'll see a lot of keyframes.
  </p> 
 <p style="text-align: center;">After</p>
 
-##### (Tip, you can press CTRL + A to create a new timing point, and CTRL + DEL to delete the currently highlighted timing point.)
+<sub>(Tip, you can press CTRL + A to create a new keyframe, and CTRL + DEL to delete the currently highlighted keyframe.)</sub>
 
 Next, look at the position of Coin A.
 

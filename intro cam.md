@@ -190,6 +190,9 @@ To make a jump cut, have where you want the camera to be on one frame, then the 
 <p align="center" width="100%">
  <img src="images/intro_camera-jumpcut.png">
  </p>
+<p align="center" width="100%">
+ <img src="images/intro_camera-jumpcut2.png">
+ </p>
 
 ## Final note
 

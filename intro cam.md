@@ -97,7 +97,7 @@ Now, this might be confusing, so I'll try and make this as simple to understand 
 
 First, let's set up the keyframes. It'll be easier if we set these up first, trust me.
 
-Starting off, for a simple Point A to B camera, you'll want to make 2 camera keyframes for each `Position` and (if its only looking at one spot), one for the `Target` entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
+Starting off, for a simple point A to B camera, you'll want to make 2 camera keyframes for each `Position` and (if its only looking at one spot), one for the `Target` entry. Under `Keyframe Data` you can enter the frame number in the `Time` slot.
 
 If you're opening a CANM file from the base game, you'll see a lot of keyframes. You'll probably want to delete most of the existing ones. Especially for a simple camera such as the one we're making here.
 
@@ -155,7 +155,7 @@ And we're done! Here's how the final camera looks!
  <img src="images/intro_camera-final-camera!!.gif">
  </p>
 
-Pretty simple, but that's all that this guide is for! This guide is just covering how to use this part of the program. It is up to you to mess around with the program and make something suitable for your level. 
+Pretty simple, but that's all that this guide is for! This guide is just covering how to use this part of the program. It is up to you to mess around with the program and make something suitable for your level.
 
 ## Examples
 
